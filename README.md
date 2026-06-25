@@ -1,7 +1,9 @@
-## Intelligent AI Assistant System
+# 🤖 Intelligent AI Assistant System
 
-## Overview
+## 📌 Overview
+
 The Intelligent AI Assistant System is a Streamlit-based AI application developed as part of an AI & Data Science Internship.
+
 The project integrates multiple AI capabilities into a single platform, including:
 
 * Sentiment Analysis Chatbot
@@ -13,37 +15,39 @@ The project integrates multiple AI capabilities into a single platform, includin
 
 The system demonstrates Natural Language Processing (NLP), Retrieval-Augmented Generation (RAG), Vector Databases, Computer Vision, Multilingual AI, and Large Language Model (LLM) integration.
 
+---
 
 ## Features
 
-> Sentiment Analysis Chatbot
+### Sentiment Analysis Chatbot
+
 * Detects customer sentiment (Positive, Negative, Neutral)
 * Identifies primary emotions
 * Generates professional responses
 * Displays emotion distribution charts
 
-> Medical Q&A Chatbot
+### Medical Q&A Chatbot
 
 * Uses MedQuAD medical dataset
 * FAISS-based retrieval system
 * Medical entity recognition
 * Educational healthcare assistance
 
-> Multilingual Chatbot
+### Multilingual Chatbot
 
 * Supports English, Tamil, Hindi, and Malayalam
 * Handles mixed-language conversations
 * Preserves context across language switches
 * Uses open-source LLMs through Ollama
 
-> Multi-Modal AI Assistant
+### Multi-Modal AI Assistant
 
 * Understands images and text together
 * Extracts visual evidence
 * Performs contextual reasoning
 * Provides confidence-based responses
 
-> Research Assistant
+### Research Assistant
 
 * Uses arXiv research papers
 * Research paper search
@@ -51,55 +55,69 @@ The system demonstrates Natural Language Processing (NLP), Retrieval-Augmented G
 * Concept visualization support
 * Follow-up question handling
 
-> Knowledge Base Update System
+### Knowledge Base Update System
 
 * Upload TXT, PDF, DOCX, and PPTX files
 * Automatically generates embeddings
 * Updates FAISS vector database
 * Expands chatbot knowledge dynamically
 
+---
 
 ## Technologies Used
 
-Frontend - Streamlit
+### Frontend
 
-LLMs -
+* Streamlit
+
+### LLMs
+
 * Gemini 2.5 Flash
 * Qwen3:8B (Ollama)
 
-NLP & Retrieval -
+### NLP & Retrieval
+
 * LangChain
 * Sentence Transformers
 * FAISS
 
-Data Processing -
+### Data Processing
+
 * NumPy
 * Pandas
 
-Document Processing - 
+### Document Processing
+
 * PyPDF
 * python-docx
 * python-pptx
 
-Computer Vision - 
+### Computer Vision
+
 * PIL (Pillow)
 * Gemini Vision
 
+---
 
-## Datasets
+##  Datasets
 
-> MedQuAD Dataset -
+### MedQuAD Dataset
+
 Used for the Medical Question Answering Chatbot.
+
 Source:
 https://github.com/abachaa/MedQuAD
 
-> arXiv Dataset
+### arXiv Dataset
+
 Used for the Research Assistant module.
+
 Source:
 https://www.kaggle.com/datasets/Cornell-University/arxiv
 
+---
 
-## System Architecture
+##  System Architecture
 
 User Input
 ↓
@@ -115,39 +133,29 @@ Response Generation
 ↓
 Output to User
 
+---
 
-##  Screenshots
+##  Installation
 
-* Sentiment Analysis
-* Medical Chatbot
-* Multilingual Chatbot
-* Multi-Modal Assistant
-* Research Assistant
-* Knowledge Base Update
-
-Uploaded in the screenshot folder 
-
-
-## Installation
-
-> Clone the repository:
+Clone the repository:
 
 git clone https://github.com/jshree-lgtm/Intelligent-AI-Assistant-System.git
 
-> Navigate to project folder:
+Navigate to project folder:
 
 cd Intelligent-AI-Assistant-System
 
-> Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
-> Run Streamlit:
+Run Streamlit:
 
 streamlit run app.py
 
+---
 
-## Internship Tasks Implemented
+##  Internship Tasks Implemented
 
 ✅ Sentiment-Aware Customer Support Chatbot
 
@@ -161,15 +169,16 @@ streamlit run app.py
 
 ✅ Multilingual Conversational Chatbot
 
+---
 
-## 👩‍💻 Developer
+## Developer
 
 Shreehaarini J
 
 B.Tech Artificial Intelligence and Data Science
 
+---
 
-## Disclaimer
-This project is developed for educational and research purposes. Medical responses are informational only and should not be considered professional medical advice.
+##  Disclaimer
 
 This project is developed for educational and research purposes. Medical responses are informational only and should not be considered professional medical advice.
