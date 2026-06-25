@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+config.py
+
+.vscode/
+
+backup/
+
+data/arxiv/
+
+*.json
+
+vector_db/
+
+medical_db/
+
